@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/drawable-v24/background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/drawable-v24/buttonr.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/drawable-v24/container_components.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/drawable-v24/container_user.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/drawable-v24/edit_text.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/drawable/background2.xml" value="0.169140625" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/drawable/ic_classis.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/activity_main.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/activity_part1.xml" value="0.25" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/activity_part2.xml" value="0.22" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/activity_part3.xml" value="0.22" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/activity_part4.xml" value="0.18" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/activity_part5.xml" value="0.22" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/activity_part6.xml" value="0.15403005464480873" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/activity_part7.xml" value="0.15403005464480873" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/activity_tabbed.xml" value="0.1734375" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/fragment_page1.xml" value="0.15703125" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/fragment_page2.xml" value="0.15703125" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/fragment_page3.xml" value="0.15703125" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/fragment_tabbed.xml" value="0.159375" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/grid_item.xml" value="0.15403005464480873" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/poupup_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/layout/toolbar.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/menu/overflow_menu.xml" value="0.209375" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/Entrega_1_DEV_MOB/app/src/main/res/menu/poupup_menu.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

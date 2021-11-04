@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">APP</string>
+    <string name="toggle_turn_on">Noite</string>
+    <string name="toggle_turn_off">Dia</string>
+    <string name="enter_text">Digite</string>
+    <string name="title_activity_tabbed">Tabbed</string>
+    <string name="tab_text_1">1 Aba</string>
+    <string name="tab_text_2">2 Aba</string>
+    <string name="tab_text_3">Pagina 3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="sports_array">
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>FootBall</item>
+        <item>Basket Ball</item>
+        <item>Table Tennis</item>
+        <item>Chess</item>
+        <item>Hockey</item>
+    </string-array>
+</resources>

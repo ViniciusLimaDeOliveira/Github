@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/item_a"
+        android:title="Cafes"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/item_a_1"
+                android:title="Cafe expressso"
+                app:showAsAction="never"/>
+            <item android:id="@+id/item_a_2"
+                android:title="Cafe preto"
+                app:showAsAction="never"/>
+            <item android:id="@+id/item_a_3"
+                android:title="Cafe com leite"
+                app:showAsAction="never"/>
+            <item android:id="@+id/item_a_4"
+                android:title="Cafe sem açucar"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+    <item android:id="@+id/item_b"
+        android:title="Pão"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/item_b_1"
+                android:title="Pão frances"
+                app:showAsAction="never"/>
+            <item android:id="@+id/item_b_2"
+                android:title="Pão Sovado"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+    <item android:id="@+id/item_c"
+        android:title="Sanduiche"
+        app:showAsAction="never">
+        <menu>
+            <item android:id="@+id/item_c_1"
+                android:title="Misto quente"
+                app:showAsAction="never"/>
+
+            <item android:id="@+id/item_c_2"
+                android:title="Pão com ovo"
+                app:showAsAction="never"/>
+            <item android:id="@+id/item_c_3"
+                android:title="cachoro quente"
+                app:showAsAction="never"/>
+        </menu>
+    </item>
+</menu>

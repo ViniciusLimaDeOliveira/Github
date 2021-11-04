@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page1">
+
+    <TextView
+        android:id="@+id/textpag1"
+        android:layout_width="167dp"
+        android:layout_height="73dp"
+        android:text="Pagina 1"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/viewpag1"
+        android:layout_width="match_parent"
+        android:layout_height="627dp"
+        android:src="@drawable/teste" />
+</FrameLayout>
