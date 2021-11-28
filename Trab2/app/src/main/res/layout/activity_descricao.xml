@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:weightSum="100"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/patern"
+    style="@style/buttons"
+    >
+
+    <TextView
+        android:id="@+id/isbn"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="isbn"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_book"
+        style="@style/edit_text"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/titulo"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        style="@style/edit_text"
+        android:drawableLeft="@drawable/ic_title"
+        android:layout_below="@id/isbn"
+        android:text="titulo"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editora"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/ic_publish"
+        android:textAlignment="center"
+        android:gravity="center"
+        style="@style/edit_text"
+
+        android:text="editora"
+        android:layout_below="@id/titulo"/>
+
+    <Button
+        android:id="@+id/button"
+        style="@style/buttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar"
+        />
+
+</LinearLayout>

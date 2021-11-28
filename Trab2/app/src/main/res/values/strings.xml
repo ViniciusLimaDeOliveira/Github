@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trab2</string>
+    <string name="salvar">Salvar</string>
+    <string name="editora">Editora</string>
+    <string name="titulo">Titulo</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="cadastro">Cadastro :</string>
+</resources>
