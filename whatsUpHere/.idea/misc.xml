@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable-anydpi/ic_action_name.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable-anydpi/ic_home.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/background.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/buttonr.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/container_components.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/container_user.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/edit_text.xml" value="0.22552083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/ic_email.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/ic_eye.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/ic_homes.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/ic_user.xml" value="0.16927083333333334" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_ambientes.xml" value="0.1" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_config.xml" value="0.33" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_group.xml" value="0.1" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_historico.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_historicoo.xml" value="0.1796875" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_home.xml" value="0.22" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_lista_de_contatos.xml" value="0.15" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_main.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_register.xml" value="0.22" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_trocar_email.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_trocar_senha.xml" value="0.22" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_user.xml" value="0.14" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/config.xml" value="0.153125" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/fragment_first.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/trocar_email.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/trocar_senha.xml" value="0.18206521739130435" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/menu/main_menu.xml" value="0.19230769230769232" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/menu/menu_group.xml" value="0.1358108108108108" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.16927083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.22" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

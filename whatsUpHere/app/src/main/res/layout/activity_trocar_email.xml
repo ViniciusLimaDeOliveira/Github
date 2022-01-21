@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trocarEmail"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/containerCompoment"
+        style="@style/ContainerComponent"
+        android:layout_width="348dp"
+        android:layout_height="258dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.359" />
+
+    <EditText
+        android:id="@+id/editText_Email"
+        style="@style/edit_text"
+        android:layout_width="298dp"
+        android:layout_height="70dp"
+        android:ems="10"
+        android:hint="@string/novo_email"
+        android:importantForAutofill="no"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toBottomOf="@+id/containerCompoment"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompoment"
+        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintStart_toStartOf="@+id/containerCompoment"
+        app:layout_constraintTop_toTopOf="@+id/containerCompoment"
+        app:layout_constraintVertical_bias="0.281" />
+
+    <Button
+        android:id="@+id/button_mudar"
+        style="@style/buttons"
+        android:layout_width="292dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="36dp"
+        android:text="Mudar"
+        app:layout_constraintBottom_toBottomOf="@+id/containerCompoment"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompoment"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="@+id/containerCompoment"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Email"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

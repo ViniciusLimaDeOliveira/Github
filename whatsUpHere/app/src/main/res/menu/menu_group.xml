@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/novoGrupo"
+        android:title="Criar chat"
+        app:showAsAction="always"
+        />
+    <item android:id="@+id/home_menu"
+        android:title="Home"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_homes"
+        />
+    <item android:id="@+id/perfil_menu"
+        android:title="Perfil"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_user"
+        />
+</menu>

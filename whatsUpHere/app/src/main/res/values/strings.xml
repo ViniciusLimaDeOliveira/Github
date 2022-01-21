@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">whatsUpHere</string>
+    <string name="Entrar">Entrar</string>
+    <string name="Crie">Crie uma conta clicando aqui</string>
+    <string name="cadastrese">Cadastrese</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="Chats">Ambientes</string>
+    <string name="ListaContato">Contatos</string>
+    <string name="LHistorico">Historico de locais</string>
+    <string name="Config">Configurações</string>
+    <string name="Tmail">Trocar Email</string>
+    <string name="Tsenha">Trocar Senha</string>
+    <string name="title_activity_historico">Historico</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="novo_email">Novo Email</string>
+</resources>

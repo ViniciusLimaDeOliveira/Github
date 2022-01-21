@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActivityUser">
+    <View
+        android:id="@+id/containeruser"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/container_user"
+        android:layout_marginTop="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_user"
+        app:layout_constraintStart_toStartOf="@id/containeruser"
+        app:layout_constraintEnd_toEndOf="@id/containeruser"
+        app:layout_constraintTop_toTopOf="@id/containeruser"
+        app:layout_constraintBottom_toBottomOf="@id/containeruser"
+        />
+    <View
+        android:id="@+id/containercara"
+        style="@style/Containerum"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containeruser"
+        />
+    <ImageView
+        android:id="@+id/iconeuser"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_user"
+        app:layout_constraintStart_toStartOf="@id/containercara"
+        app:layout_constraintTop_toTopOf="@id/containercara"
+        />
+
+    <TextView
+        android:id="@+id/nome_camp_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="35dp"
+        android:text="exemplo"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/iconeuser"
+        app:layout_constraintStart_toStartOf="@id/iconeuser"
+        app:layout_constraintTop_toTopOf="@id/containercara" />
+
+    <ImageView
+        android:id="@+id/iconeEmail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_email"
+        app:layout_constraintBottom_toBottomOf="@+id/containercara"
+        app:layout_constraintLeft_toLeftOf="@id/containercara"
+        app:layout_constraintTop_toBottomOf="@id/iconeuser"
+         />
+
+    <TextView
+        android:id="@+id/email_camp_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginBottom="36dp"
+        android:text="exemplo@exemplo.com"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/containercara"
+        app:layout_constraintStart_toEndOf="@+id/iconeEmail"
+        app:layout_constraintStart_toStartOf="@id/iconeEmail"
+        app:layout_constraintTop_toTopOf="@id/nome_camp_id"
+        app:layout_constraintVertical_bias="0.783" />
+
+    <Button
+        android:id="@+id/deslogar_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/black"
+        android:text="Deslogar"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/containercara"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>
