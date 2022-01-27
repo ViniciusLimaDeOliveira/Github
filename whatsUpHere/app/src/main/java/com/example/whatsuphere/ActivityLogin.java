@@ -51,7 +51,7 @@ public class ActivityLogin extends AppCompatActivity {
                             Toast.LENGTH_LONG).show();
                 }else{
                     startActivity(new Intent(ActivityLogin.this,Activity_home.class));
-                    //EntrarComoUsuario();
+                    EntrarComoUsuario();
                 }
             }
         });
@@ -79,8 +79,8 @@ public class ActivityLogin extends AppCompatActivity {
                         if(task.isSuccessful()){
                             progressBar.setVisibility(View.GONE);
                             Toast.makeText(ActivityLogin.this,"Login feito com sucesso !",Toast.LENGTH_SHORT).show();
-                            limparCampos();
                             startActivity(new Intent(ActivityLogin.this,Activity_home.class));
+                            limparCampos();
                         }else{
                             progressBar.setVisibility(View.GONE);
                             Toast.makeText(ActivityLogin.this,"Não foi possivel fazer Login !",Toast.LENGTH_LONG).show();
