@@ -2,11 +2,21 @@ package com.example.whatsuphere.Entity;
 
 public class Contato {
     String iud;
+    String nome;
     String email;
 
-    public Contato(String iud,String email) {
+    public Contato(String iud,String email,String nome) {
+        this.nome=nome;
         this.iud = iud;
         this.email = email;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
     public Contato() {
@@ -31,6 +41,6 @@ public class Contato {
 
     @Override
     public String toString() {
-        return "|"+email+"|";
+        return "|_> "+nome+" |"+"\n|-->"+email+" |";
     }
 }

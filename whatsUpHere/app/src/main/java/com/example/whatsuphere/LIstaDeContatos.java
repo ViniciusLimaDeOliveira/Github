@@ -38,7 +38,7 @@ public class LIstaDeContatos extends AppCompatActivity {
     private ArrayAdapter<Contato> arrayAdapterUser;
     private List<Contato> auxUser;
     private Button btAdd,brRmv;
-    private EditText editText;
+    private EditText editText,editTextNome;
     private FirebaseAuth mAuth;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
@@ -67,6 +67,7 @@ public class LIstaDeContatos extends AppCompatActivity {
     }
 
     private void removerContato() {
+        //para remover so precissa do email
         String men = editText.getText().toString().trim();
         if(men.isEmpty()){
             Toast.makeText(this, "Campo vazio", Toast.LENGTH_SHORT).show();
@@ -90,16 +91,19 @@ public class LIstaDeContatos extends AppCompatActivity {
                         .removeValue();
             }
             editText.setText("");
+            editTextNome.setText("");
         }
     }
 
     private void adicionarContato() {
         String men = editText.getText().toString().trim();
-        if(men.isEmpty()){
+        String nome = editTextNome.getText().toString().trim();
+        if(men.isEmpty()||nome.isEmpty()){
             Toast.makeText(this, "Campo vazio", Toast.LENGTH_SHORT).show();
         }else{
             Contato m = new Contato();
             m.setEmail(men);
+            m.setNome(nome);
             m.setIud(UUID.randomUUID().toString());
             databaseReference.child("Users").child(FirebaseAuth.getInstance().getCurrentUser().getUid())
                     .child("contatos")
@@ -110,6 +114,7 @@ public class LIstaDeContatos extends AppCompatActivity {
                         public void onComplete(@NonNull Task<Void> task) {
                             if(task.isSuccessful()){
                                 editText.setText("");
+                                editTextNome.setText("");
                             }else{
                                 Toast.makeText(LIstaDeContatos.this, "Ocorreu erro no envio", Toast.LENGTH_SHORT).show();
                             }
@@ -130,7 +135,8 @@ public class LIstaDeContatos extends AppCompatActivity {
                     Contato l = objSnapshot.getValue(Contato.class);
                     String email = l.getEmail();
                     String iud = l.getIud();
-                    auxUser.add(new Contato(iud,email));
+                    String name = l.getNome();
+                    auxUser.add(new Contato(iud,email,name));
                 }
                 arrayAdapterUser = new ArrayAdapter<Contato>(LIstaDeContatos.this,
                         android.R.layout.simple_list_item_1,auxUser);
@@ -156,6 +162,7 @@ public class LIstaDeContatos extends AppCompatActivity {
         btAdd = findViewById(R.id.add_contato);
         brRmv = findViewById(R.id.rmv_contato);
         editText = findViewById(R.id.editTextTextEmailAddress);
+        editTextNome = findViewById(R.id.editText_nome);
     }
 
     @Override
