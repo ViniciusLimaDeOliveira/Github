@@ -3,41 +3,30 @@ package com.example.whatsuphere.Entity;
 import java.util.List;
 
 public class Contatos {
-    private int id;
-    private int id_cliente;
-    private List<Contato> contatos;
+    private String nome;
+    private String Email;
 
-    public Contatos(int id, int id_cliente) {
-        this.id = id;
-        this.id_cliente = id_cliente;
-    }
-    public Contatos(int id, int id_cliente, List<Contato> contatos) {
-        this.id = id;
-        this.id_cliente = id_cliente;
-        this.contatos = contatos;
+    public Contatos(String nome, String email) {
+        this.nome = nome;
+        Email = email;
     }
 
-    public int getId() {
-        return id;
+    public Contatos() {
     }
 
-    public void setId(int id) {
-        this.id = id;
+    public String getNome() {
+        return nome;
     }
 
-    public int getId_cliente() {
-        return id_cliente;
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 
-    public void setId_cliente(int id_cliente) {
-        this.id_cliente = id_cliente;
+    public String getEmail() {
+        return Email;
     }
 
-    public List<Contato> getContatos() {
-        return contatos;
-    }
-
-    public void setContatos(List<Contato> contatos) {
-        this.contatos = contatos;
+    public void setEmail(String email) {
+        Email = email;
     }
 }

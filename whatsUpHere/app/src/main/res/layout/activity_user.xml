@@ -32,6 +32,7 @@
     <View
         android:id="@+id/containercara"
         style="@style/Containerum"
+        android:textColor="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintStart_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/containeruser"
@@ -54,6 +55,7 @@
         android:layout_marginStart="76dp"
         android:layout_marginTop="35dp"
         android:text="exemplo"
+        android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintStart_toEndOf="@+id/iconeuser"
@@ -80,6 +82,7 @@
         android:layout_marginTop="68dp"
         android:layout_marginBottom="36dp"
         android:text="exemplo@exemplo.com"
+        android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/containercara"

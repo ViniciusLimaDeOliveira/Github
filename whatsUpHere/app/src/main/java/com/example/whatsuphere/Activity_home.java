@@ -3,8 +3,12 @@ package com.example.whatsuphere;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 
+import android.Manifest;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -37,6 +41,7 @@ public class Activity_home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         iniciarComponents();
         IniciarFirebase();
+        getSupportActionBar().setTitle("Whats Up!");
         btConfig.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -65,6 +70,7 @@ public class Activity_home extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
     }
 
     @Override

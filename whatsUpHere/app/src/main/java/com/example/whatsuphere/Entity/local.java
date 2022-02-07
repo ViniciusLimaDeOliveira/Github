@@ -1,5 +1,7 @@
 package com.example.whatsuphere.Entity;
 
+import java.util.ArrayList;
+
 public class local {
     private String Uid;
     private String localName;

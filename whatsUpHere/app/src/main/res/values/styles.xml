@@ -40,4 +40,5 @@
         <item name="android:textAllCaps">false</item>
         <item name="android:background">@drawable/buttonr</item>
     </style>
+    <style name="AlertDialog" parent="Base.Theme.AppCompat.Light.Dialog"></style>
 </resources>

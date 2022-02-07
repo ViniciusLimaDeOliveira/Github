@@ -50,7 +50,6 @@ public class ActivityLogin extends AppCompatActivity {
                     Toast.makeText(ActivityLogin.this,"Senha são maiores que 6 caracteres !",
                             Toast.LENGTH_LONG).show();
                 }else{
-                    startActivity(new Intent(ActivityLogin.this,Activity_home.class));
                     EntrarComoUsuario();
                 }
             }
@@ -79,8 +78,8 @@ public class ActivityLogin extends AppCompatActivity {
                         if(task.isSuccessful()){
                             progressBar.setVisibility(View.GONE);
                             Toast.makeText(ActivityLogin.this,"Login feito com sucesso !",Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(ActivityLogin.this,Activity_home.class));
                             limparCampos();
+                            startActivity(new Intent(ActivityLogin.this,Activity_home.class));
                         }else{
                             progressBar.setVisibility(View.GONE);
                             Toast.makeText(ActivityLogin.this,"Não foi possivel fazer Login !",Toast.LENGTH_LONG).show();

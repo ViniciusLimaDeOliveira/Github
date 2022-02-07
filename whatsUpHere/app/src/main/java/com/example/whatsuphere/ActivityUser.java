@@ -30,6 +30,7 @@ public class ActivityUser extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setTitle("Whats Up!");
         setContentView(R.layout.activity_user);
         getSupportActionBar().hide();
         iniciarComponents();

@@ -10,30 +10,47 @@
     <TextView
         android:id="@+id/containerCompoment"
         style="@style/ContainerComponent"
-        android:layout_width="348dp"
-        android:layout_height="258dp"
+        android:layout_width="347dp"
+        android:layout_height="350dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.359" />
+        app:layout_constraintVertical_bias="0.359"
+        />
+
+    <Button
+        android:id="@+id/buttonCance"
+        style="@style/buttons"
+        android:layout_width="292dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginBottom="32dp"
+        android:text="Cancelar"
+        app:layout_constraintBottom_toBottomOf="@+id/containerCompoment"
+        app:layout_constraintEnd_toEndOf="@+id/containerCompoment"
+        app:layout_constraintHorizontal_bias="0.472"
+        app:layout_constraintStart_toStartOf="@+id/containerCompoment"
+        app:layout_constraintTop_toTopOf="@+id/containerCompoment"
+        app:layout_constraintVertical_bias="1.0" />
 
     <EditText
-        android:id="@+id/editText_Email"
+        android:id="@+id/emailTrocarid"
         style="@style/edit_text"
         android:layout_width="298dp"
         android:layout_height="70dp"
         android:ems="10"
+        android:textColor="@color/black"
         android:hint="@string/novo_email"
         android:importantForAutofill="no"
         android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="@+id/containerCompoment"
         app:layout_constraintEnd_toEndOf="@+id/containerCompoment"
-        app:layout_constraintHorizontal_bias="0.56"
+        app:layout_constraintHorizontal_bias="0.489"
         app:layout_constraintStart_toStartOf="@+id/containerCompoment"
         app:layout_constraintTop_toTopOf="@+id/containerCompoment"
-        app:layout_constraintVertical_bias="0.281" />
+        app:layout_constraintVertical_bias="0.214" />
 
     <Button
         android:id="@+id/button_mudar"

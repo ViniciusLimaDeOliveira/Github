@@ -17,6 +17,7 @@ public class config extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_config);
         iniciarComponents();
+        getSupportActionBar().setTitle("Whats Up!");
         tma.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

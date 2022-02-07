@@ -8,13 +8,15 @@
     android:background="@drawable/background">
 
     <ListView
-        android:layout_width="411dp"
-        android:layout_height="671dp"
-        android:layout_marginBottom="23dp"
+        android:id="@+id/listMensagens"
+        android:layout_width="418dp"
+        android:textColor="@color/black"
+        android:layout_height="586dp"
+        android:layout_marginBottom="28dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <LinearLayout
         android:background="@color/white"
@@ -30,19 +32,22 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <EditText
-            android:id="@+id/editTextTextPersonName3"
+            android:id="@+id/menssagem_campo"
             android:layout_width="318dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="Digite"
-            android:inputType="textPersonName" />
+            android:textColor="@color/black"
+            android:hint="@string/digite"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:importantForAutofill="no" />
 
         <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_send"
             android:layout_width="wrap_content"
-            android:layout_height="35dp"
+            android:layout_height="48dp"
             android:layout_weight="1"
-            android:text="Enviar" />
+            android:text="@string/enviar" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

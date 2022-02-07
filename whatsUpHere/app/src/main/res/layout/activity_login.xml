@@ -25,6 +25,7 @@
     <EditText
         android:id="@+id/edit_email"
         style="@style/edit_text"
+        android:textColor="@color/black"
         android:layout_width="393dp"
         android:layout_height="61dp"
         android:layout_marginStart="8dp"
@@ -39,6 +40,7 @@
     <EditText
         android:id="@+id/edit_senha"
         style="@style/edit_text"
+        android:textColor="@color/black"
         android:layout_width="395dp"
         android:layout_height="60dp"
         android:layout_marginStart="8dp"

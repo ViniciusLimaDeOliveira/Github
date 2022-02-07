@@ -16,8 +16,8 @@
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/ic_homes.xml" value="0.16927083333333334" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/ic_launcher_background.xml" value="0.16927083333333334" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/drawable/ic_user.xml" value="0.16927083333333334" />
-        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_ambientes.xml" value="0.1" />
-        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_config.xml" value="0.33" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_ambientes.xml" value="0.2" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_config.xml" value="0.12" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_group.xml" value="0.1" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_historico.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_historicoo.xml" value="0.1796875" />
@@ -25,6 +25,8 @@
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_lista_de_contatos.xml" value="0.15" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_main.xml" value="0.19429347826086957" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_mapa.xml" value="0.1" />
+        <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_maps.xml" value="0.1358108108108108" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_register.xml" value="0.22" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_trocar_email.xml" value="0.18206521739130435" />
         <entry key="..\:/Users/T-Gamer/AndroidStudioProjects/whatsUpHere/app/src/main/res/layout/activity_trocar_senha.xml" value="0.22" />

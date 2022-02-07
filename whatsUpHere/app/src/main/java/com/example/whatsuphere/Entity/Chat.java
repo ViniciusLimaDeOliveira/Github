@@ -1,25 +1,36 @@
 package com.example.whatsuphere.Entity;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class Chat implements Serializable {
-    private String Uid;
     private String nome;
-    //private String uidDono;
-    //local para saber onde ele deve ser mostrado
-    //pode ter mais coisa
+    private Double latitude;
+    private Double longitude;
 
-    public Chat(String uid, String nome)   {
-        Uid = uid;
+    public Chat(){}
+    public Chat(String nome,Double latitude, Double longitude) {
+        this.nome = nome;
+        this.latitude = latitude;
+        this.longitude = longitude;
+    }
+    public Chat(String nome){
         this.nome = nome;
     }
-
-    public String getUid() {
-        return Uid;
+    public Double getLatitude() {
+        return latitude;
     }
 
-    public void setUid(String uid) {
-        Uid = uid;
+    public void setLatitude(Double latitude) {
+        this.latitude = latitude;
+    }
+
+    public Double getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(Double longitude) {
+        this.longitude = longitude;
     }
 
     public String getNome() {
@@ -32,9 +43,6 @@ public class Chat implements Serializable {
 
     @Override
     public String toString() {
-        return "Chat{" +
-                "Uid='" + Uid + '\'' +
-                ", nome='" + nome + '\'' +
-                '}';
+        return nome;
     }
 }
